@@ -53,3 +53,40 @@ ul {
     
   }
   
+
+  /* -------------------- */
+  /* Portfolio */
+  /* -------------------- */
+
+  .fake-body {
+    width: 100%;
+    background: red;
+  }
+
+  .card-container {
+    background: blue;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    position: relative;
+    background: blue;
+    margin: 10px;
+    width: 200px;
+  }
+
+  .card-image {
+
+  }
+
+  .card-text {
+    position: absolute;
+    top: 50px;
+    background: pink;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
